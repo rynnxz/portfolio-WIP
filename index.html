@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script>
+        // Mendeteksi saat klik kanan dilakukan pada halaman web
+    document.addEventListener('contextmenu', function (e) {
+    // Mencegah tindakan bawaan yang biasanya terjadi saat klik kanan
+    e.preventDefault();
+});
+
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home content -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Akbar Riansyah</h1>
+            <h3>And I'm a <span>Junior Web Development</span></h3>
+            <p>Hi, saya pelajar SMKN 1 Percut Sei Tuan, saya suka mempelajari hal baru, jadi jangan sungkan untuk berkomunikasi dan berteman dengan saya.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/ryannnxr_/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/akbar-riansyah/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+            <a href="#" class="btn">My Project</a>
+        </div>
+
+        <div class="home-img">
+            <img src="resource/gwe.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="resource/gwe.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>Saya mempelajari banyak hal baru, karena itu termasuk hobi saya, saya sedang belajar di <span><b>SMKN 1 Percut Sei Tuan</b></span>, Saya 2 bersaudara, dan saya yang paling tua.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-block'></i>
+
+                <h2>Web Development</h2>
+                <p>Saya mempelajari sedikit tentang <span><b>HTML, CSS, dan sedikit JavaScript</b></span></p>
+
+                <a href="#" class="btn">My Project</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-unity'></i>
+
+                <h2>Game Development</h2>
+                <p>Untuk <span><b>Game Development</b></span>, saya menggunakan Unity Engine sebagai engine utama, dan bahasa pemrograman C#</p>
+
+                <a href="#" class="btn">My Project</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-paint' ></i>
+
+                <h2>Graphic Design</h2>
+                <p>Saya terbilang cukup bisa menggunakan software seperti <span><b>Adobe Photoshop, Adobe Iluslator, dan Corel Draw</b></span>, selain itu saya juga menggunakan <span><b>Canva</b></span></p>
+
+                <a href="#" class="btn">My Project</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-wrench'></i>
+
+                <h2>Computer or Laptop Repair Technician</h2>
+                <p>Saya juga memiliki pengalaman memperbaiki <span><b>laptop</b></span> maupun <span><b>komputer</b></span>, untuk bukti nyata, bisa dicek di <span><b>instagram servis</b></span> saya</p>
+
+                <a href="https://www.instagram.com/ryantuser/" class="btn">My Instagram</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- project section -->
+        <section class="project" id="project">
+            <h2 class="heading">Latest <span>Project</span></h2>
+    
+            <div class="project-container">
+                <div class="project-box">
+                    <img src="resource/web-development.png" alt="">
+                    <h2 class="img-text">SOON</h2>
+                    <div class="project-layer">
+                        <h4>Web Development</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="resource/game-development.png" alt="">
+                    <h2 class="img-text">SOON</h2>
+                    <div class="project-layer">
+                        <h4>Game Development</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="resource/desain-grafis.png" alt="">
+                    <h2 class="img-text">SOON</h2>
+                    <div class="project-layer">
+                        <h4>Desain Grafis</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="resource/web-development.png" alt="">
+                    <h2 class="img-text">SOON</h2>
+                    <div class="project-layer">
+                        <h4>Web Development</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="resource/game-development.png" alt="">
+                    <h2 class="img-text">SOON</h2>
+                    <div class="project-layer">
+                        <h4>Game Development</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+    
+                <div class="project-box">
+                    <img src="resource/desain-grafis.png" alt="">
+                    <h2 class="img-text">SOON</h2>
+                    <div class="project-layer">
+                        <h4>Desain Grafis</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+
+        <!-- education section -->
+
+        <section class="education" id="education">
+            <h2 class="heading">Education</h2>
+
+            <div class="education-container">
+                
+                <div class="education-box">
+                    <i class='bx bxs-school'></i>
+    
+                    <h2>SD Muhammadiyah 07 Medan</h2>
+                    <p>20xx-20xx</p>
+                </div>
+
+                <div class="education-box">
+                    <i class='bx bxs-school'></i>
+
+                    <h2>SMP Muhammadiyah 1 Medan</h2>
+                    <p>20xx-20xx</p></div>
+                    
+                <div class="education-box">
+                    <i class='bx bxs-school'></i>
+
+                    <h2>SMK Negeri 1 Percut Sei Tuan</h2>
+                    <p>20xx-20xx</p></div>
+                </div>
+
+            </div>
+
+            <h2 class="heading">Experience</h2>
+            <div class="experience-container">
+
+                <div class="experience-box">
+                    <i class='bx bxs-briefcase'></i>
+                    <h2>Magang</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>April-Juni 2024</p>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
