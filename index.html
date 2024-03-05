@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="resource/css/style.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <script>
-        // Mendeteksi saat klik kanan dilakukan pada halaman web
-    document.addEventListener('contextmenu', function (e) {
-    // Mencegah tindakan bawaan yang biasanya terjadi saat klik kanan
-    e.preventDefault();
-});
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
 
     </script>
 </head>
@@ -36,7 +34,7 @@
     <!-- home content -->
     <section class="home" id="home">
         <div class="home-content">
-            <h3>Hello, It's me</h3>
+            <h3>Yo!, It's me</h3>
             <h1>Akbar Riansyah</h1>
             <h3>And I'm a <span>Junior Web Development</span></h3>
             <p>Hi, saya pelajar SMKN 1 Percut Sei Tuan, saya suka mempelajari hal baru, jadi jangan sungkan untuk berkomunikasi dan berteman dengan saya.</p>
@@ -51,9 +49,9 @@
             <a href="#" class="btn">My Project</a>
         </div>
 
-        <div class="home-img">
+        <!-- <div class="home-img">
             <img src="resource/gwe.png" alt="">
-        </div>
+        </div> -->
     </section>
 
 
@@ -192,21 +190,21 @@
                 <div class="education-box">
                     <i class='bx bxs-school'></i>
     
-                    <h2>SD Muhammadiyah 07 Medan</h2>
-                    <p>20xx-20xx</p>
+                    <h3>SD Muhammadiyah 07 Medan</h3>
+                    <h2>20xx-20xx</h2>
                 </div>
 
                 <div class="education-box">
                     <i class='bx bxs-school'></i>
 
-                    <h2>SMP Muhammadiyah 1 Medan</h2>
-                    <p>20xx-20xx</p></div>
+                    <h3>SMP Muhammadiyah 1 Medan</h3>
+                    <h2>20xx-20xx</h2></div>
                     
                 <div class="education-box">
                     <i class='bx bxs-school'></i>
 
-                    <h2>SMK Negeri 1 Percut Sei Tuan</h2>
-                    <p>20xx-20xx</p></div>
+                    <h3>SMK Negeri 1 Percut Sei Tuan</h3>
+                    <h2>20xx-20xx</h2></div>
                 </div>
 
             </div>
@@ -216,11 +214,41 @@
 
                 <div class="experience-box">
                     <i class='bx bxs-briefcase'></i>
-                    <h2>Magang</h2>
+                    <h3>Magang</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>April-Juni 2024</p>
+                    <h2>April-Juni 2024</h2>
                 </div>
             </div>
         </section>
+
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Akbar Riansyah | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-chevron-up'></i></a>
+            </div>
+        </footer>
+
+        <script src="resource/js/script.js"></script>
 </body>
 </html>
